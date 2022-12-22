@@ -2,15 +2,19 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': 13.0.7
+  '@rescript/react': ^0.10.3
   next: 13.0.7
   react: 18.2.0
   react-dom: 18.2.0
+  rescript: ^10.0.1
 
 dependencies:
   '@next/font': 13.0.7
+  '@rescript/react': 0.10.3_biqbaboplfbrettd7655fr4n2y
   next: 13.0.7_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  rescript: 10.0.1
 
 packages:
 
@@ -139,6 +143,16 @@ packages:
     dev: false
     optional: true
 
+  /@rescript/react/0.10.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Lf9rzrR3bQPKJjOK3PBRa/B3xrJ7CqQ1HYr9VHPVxJidarIJJFZBhj0Dg1uZURX+Wg/xiP0PHFxXmdj2bK8Vxw==}
+    peerDependencies:
+      react: '>=16.8.1'
+      react-dom: '>=16.8.1'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /@swc/helpers/0.4.14:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
@@ -242,6 +256,12 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /rescript/10.0.1:
+    resolution: {integrity: sha512-XwO1GPDtoEU4H03xQE5bp0/qtSVR6YLaJRPxWKrfFgKc+LI36ODOCie7o9UJfgzQdoMYkkZyiTGZ4N9OQEaiUw==}
+    hasBin: true
+    requiresBuild: true
     dev: false
 
   /scheduler/0.23.0:
